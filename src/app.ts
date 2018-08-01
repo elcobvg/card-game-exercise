@@ -6,8 +6,9 @@
  */
 'use strict'
 
-const Game = require('./game')
-const players = ['Alice', 'Bob', 'Carol', 'Eve']
+import Game from './game'
+
+const players : Array<string> = ['Alice', 'Bob', 'Carol', 'Eve']
 
 /**
  * Start a new game
